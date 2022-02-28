@@ -1,3 +1,52 @@
 #root {
-  color: red;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  
+  
 }
+
+.episodes {
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+}
+
+.h3 {
+  border-radius: solid black 1px;
+}
+
+h1 {
+  text-align: right;
+}
+
+
+body {
+  background-color: rgb(165, 190, 190);
+}
+
+
+p {
+  overflow: hidden;
+}
+
+#title {
+  display: flex;
+}
+
+h1{
+  display: center;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
